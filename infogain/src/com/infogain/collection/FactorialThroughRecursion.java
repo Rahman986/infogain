@@ -1,0 +1,17 @@
+package com.infogain.collection;
+
+public class FactorialThroughRecursion {
+	public static int fact(int n) {
+		if(n==0) {
+			return 1;
+		}else {
+			return n*fact(n-1);
+		}
+	}
+	public static void main(String[] args) {
+		System.out.println("Factorial throgh recursion\t"+FactorialThroughRecursion.fact(5));;
+		
+	}
+
+}
+
